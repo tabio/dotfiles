@@ -1,7 +1,7 @@
 [pager]
 	branch = false
 [user]
-	email = tabio@example.com
+	email = tabio.github@gmail.com
 	name = tabio
 [core]
 	editor = nvim
