@@ -1,0 +1,22 @@
+[[plugins]]
+repo = 'yuroyoro/smooth_scroll.vim'
+hook_add = '''
+let g:ac_smooth_scroll_du_sleep_time_msec = 1  " <C-d,u>のスクロール速度
+let g:ac_smooth_scroll_fb_sleep_time_msec = 1  " <C-f,b>のスクロール速度
+'''
+
+[[plugins]]
+repo = 'rhysd/clever-f.vim'
+hook_add = '''
+let g:clever_f_smart_case=1                " 大文字入力時のみ大文字を区別
+let g:clever_f_across_no_line=1            " 行を跨いだ検索を禁止
+let g:clever_f_chars_match_any_signs = ';' " 記号全般をf;でマッチさせる
+'''
+
+[[plugins]]
+repo = 'rhysd/accelerated-jk'
+hook_add = '''
+let g:accelerated_jk_acceleration_table = [10,5,3]
+nmap j <Plug>(accelerated_jk_gj)
+nmap k <Plug>(accelerated_jk_gk)
+'''

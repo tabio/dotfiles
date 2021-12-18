@@ -1,0 +1,51 @@
+[[plugins]] # 階層色付け
+repo = 'nathanaelkane/vim-indent-guides'
+hook_add = '''
+let g:indent_guides_enable_on_vim_startup = 1 " 起動時に有効化
+let g:indent_guides_start_level = 2           " ガイドを開始するレベル(ネストの深さ)
+let g:indent_guides_auto_colors = 0           " 自動カラー無効
+let g:indent_guides_guide_size = 1            " ガイドの幅
+
+" 奇数列は意図的に背景色と同じにする
+" hi IndentGuidesOdd  ctermbg=black
+" hi IndentGuidesEven ctermbg=green
+hi IndentGuidesOdd  ctermbg=darkgray
+hi IndentGuidesEven ctermbg=darkgray
+
+let g:indent_guides_color_change_percent = 30     " ガイドの色の変化の割合
+'''
+
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]] # 整列
+repo = 'vim-scripts/vim-easy-align'
+hook_add = '''
+" vip -> Enter -> 対象文字
+vmap <Enter> <Plug>(EasyAlign)
+
+" gaip -> 対象文字
+nmap ga <Plug>(EasyAlign)
+'''
+
+[[plugins]] # コメント一括処理
+repo = 'tomtom/tcomment_vim'
+
+[[plugins]] # ソースツリー
+repo = 'scrooloose/nerdtree'
+hook_add = '''
+nmap <silent> <C-e>      :NERDTreeToggle<CR>
+vmap <silent> <C-e> <Esc>:NERDTreeToggle<CR>
+omap <silent> <C-e>      :NERDTreeToggle<CR>
+imap <silent> <C-e> <Esc>:NERDTreeToggle<CR>
+cmap <silent> <C-e> <C-u>:NERDTreeToggle<CR>
+
+let g:NERDTreeIgnore=['\.git$', '\.svn$', '\.log$', '\.ignore$', '\.cvs$', '\.swp$', '\.keep$'] " 無視するファイル
+let g:NERDChristmasTree = 1                                                                     " カラー表示
+let g:NERDTreeHighlightCursorline = 0                                                           " カーソル行を強調しない
+let g:NERDTreeShowHidden = 1                                                                    " 隠しファイルを表示
+let g:NERDTreeWinSize = 40
+'''
+
+[[plugins]] # bufferのタブ化
+repo = 'fholgado/minibufexpl.vim'

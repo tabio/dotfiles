@@ -1,10 +1,14 @@
-# mac-setup
+# dotfiles
 
 M1 MacBook購入後の初期セットアップ
 OS: Monterey 12.0.1
 
 ## 事前準備
 
+- このリポジトリを$HOME配下にcloneする
+  ```sh
+  cd ~ && git clone https://github.com/tabio/dotfiles
+  ```
 - [Homebrew](https://brew.sh/index_ja)のインストール
   ```sh
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -61,7 +65,9 @@ brew bundle
 
 ## neovim
 
-[dotfiles_neovim](https://github.com/tabio/dotfiles_neovim)を$HOME配下にインストールしてREADMEに従う
+```sh
+./setup-neovim.sh
+```
 
 ## hammerspoon
 

@@ -1,0 +1,44 @@
+[[plugins]] # HEADから差分表示
+repo = 'airblade/vim-gitgutter'
+
+[[plugins]] # ログファイルの色付け
+repo = 'vim-scripts/AnsiEsc.vim'
+
+[[plugins]] # カラーコードを色付け
+repo = 'gorodinskiy/vim-coloresque.git'
+
+[[plugins]] # true / falseなどの切替
+repo = 'AndrewRadev/switch.vim'
+hook_add = '''
+let g:switch_mapping = '-'
+'''
+
+[[plugins]] # gxでURLをブラウザで閲覧
+repo = 'tyru/open-browser.vim'
+hook_add = '''
+let g:netrw_nogx = 1
+nmap gx <Plug>(openbrowser-smart-search)
+vmap gx <Plug>(openbrowser-smart-search)
+'''
+
+[[plugins]] # カーソル位置のコンテキストに合わせてfiletypeを切替
+repo = 'osyo-manga/vim-precious'
+depends = ['context_filetype.vim']
+
+[[plugins]] # カーソルの位置のコンテキストのfiletypeを判定
+repo = 'Shougo/context_filetype.vim'
+
+[[plugins]] # functionや変数一覧表示 / F8でON/OFF
+repo = 'majutsushi/tagbar'
+hook_add = '''
+nmap <F8> :TagbarToggle<CR>
+'''
+
+[[plugins]]
+repo = 'vim-scripts/vim-tags'
+
+[[plugins]]
+repo = 'dhruvasagar/vim-table-mode'
+
+[[plugins]] # 60i + = -> = * 60 | \di -> カーソル移動描画
+repo = 'vim-scripts/DrawIt'

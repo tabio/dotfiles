@@ -1,0 +1,20 @@
+[[plugins]] # 括弧やクォートの自動補完
+repo = 'Townk/vim-autoclose'
+on_i = 1
+
+[[plugins]] # :echo has('python3')が1でないと使えない
+repo = 'Shougo/deoplete.nvim'
+on_i = 1
+hook_add = 'let g:deoplete#enable_at_startup = 1'
+
+# ruby {{{
+[[plugins]]
+repo = 'osyo-manga/vim-monster'
+on_i = 1
+hook_add = '''
+let g:monster#completion#rcodetools#backend = "async_rct_complete"
+let g:deoplete#sources#omni#input_patterns = {
+\   "ruby" : '[^. *\t]\.\w*\|\h\w*::',
+\}
+'''
+# }}}

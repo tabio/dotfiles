@@ -1,0 +1,5 @@
+{
+  "suggest.enablePreselect": true,
+  "solargraph.commandPath": "/Users/hoge/.rbenv/shims/solargraph",
+  "tsserver.npm": "/Users/hoge/.anyenv/envs/nodenv/shims/npm"
+}

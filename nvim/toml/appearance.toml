@@ -1,0 +1,12 @@
+[[plugins]] # colorscheme
+repo = 'nanotech/jellybeans.vim'
+hook_add = '''
+au MyAutoCmd VimEnter * nested colorscheme jellybeans
+'''
+
+[[plugins]] # status line
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+set laststatus=2
+let g:lightline = { 'colorscheme': 'wombat' }
+'''
