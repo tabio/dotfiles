@@ -70,7 +70,15 @@ hammerspoonを使う場合はconfigファイルをコピー
 cp hammerspoon-init.lua ~/.hammerspoon/init.lua
 ```
 
+## Finder
+
+- 環境設定のサイドバー表示項目にホームディレクトリを追加
+- 表示の項目パスバーを表示を有効化
+
+
 ## システム環境設定
 
 - キーボード > キーボードで修飾キーの変更
 - Mision Control > ホットコーナーでディスプレイのスリープ設定を追加
+- Dockとメニューバー
+  - Dockの最近使ったアプリケーションをDocに表示のチェックボックスを外す
