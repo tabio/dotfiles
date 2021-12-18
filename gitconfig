@@ -1,0 +1,12 @@
+[pager]
+	branch = false
+[user]
+	email = tabio@example.com
+	name = tabio
+[core]
+	editor = nvim
+	excludesfile = /Users/tabio/.gitignore_global
+[commit]
+	template = /Users/tabio/.commit_template
+[init]
+	defaultBranch = main
