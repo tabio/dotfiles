@@ -1,4 +1,5 @@
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 cask_args appdir: "~/Applications"
 
 brew "anyenv"
@@ -38,6 +39,7 @@ cask "visual-studio-code"
 
 # その他
 # cask "amazon-music"
+cask "font-fira-code-nerd-font"
 
 
 # AppStore

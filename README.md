@@ -51,28 +51,25 @@ brew bundle
    nodenv global xx.xx.xx
   ```
 
-## git
+## setup系
 
 ```sh
+# git
 ./setup-git.sh
-```
 
-## zsh
-
-```sh
+# zsh
 ./setup-zsh.sh
-```
 
-## neovim
-
-```sh
+# neovim
+# cocの再インストールが必要な場合は ~/.cache/dein/repos/github.com/neoclide/ を削除
 ./setup-neovim.sh
-```
 
-## hammerspoon
+# starship
+# ref. https://github.com/starship/starship/blob/master/docs/ja-JP/guide/README.md
+./setup-starship.sh
 
-hammerspoonを使う場合はconfigファイルをコピー
-```sh
+# hammerspoon
+# hammerspoonを使う場合はconfigファイルをコピー
 cp hammerspoon-init.lua ~/.hammerspoon/init.lua
 ```
 
