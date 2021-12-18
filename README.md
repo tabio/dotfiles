@@ -66,6 +66,7 @@ brew bundle
 
 # starship
 # ref. https://github.com/starship/starship/blob/master/docs/ja-JP/guide/README.md
+# setup後にはiterm2のtextフォントをFiraCode Nerd Fontに変更(絵文字反映のため)
 ./setup-starship.sh
 
 # hammerspoon
