@@ -1,6 +1,7 @@
 # mac-setup
 
-mac購入後の初期セットアップ
+M1 MacBook購入後の初期セットアップ
+OS: Monterey 12.0.1
 
 ## 事前準備
 
