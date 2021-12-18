@@ -1,7 +1,8 @@
 tap "homebrew/cask"
-cask_args appdir: "~/Applications", require_sha: true
+cask_args appdir: "~/Applications"
 
 brew "anyenv"
+brew "ctags"
 brew "brew-cask-completion"
 brew "grep"
 brew "neovim"
@@ -9,6 +10,7 @@ brew "mas"
 brew "tree"
 brew "wget"
 brew "zsh-completions"
+brew "the_silver_searcher"
 # brew "awscli"
 # brew "gh"
 # brew "jq"
@@ -34,8 +36,7 @@ cask "visual-studio-code"
 
 
 # その他
-cask "amazon-music"
-cask "google-japanese-ime"
+# cask "amazon-music"
 
 
 # AppStore
