@@ -46,6 +46,12 @@ brew bundle
    nodenv global xx.xx.xx
   ```
 
+## git
+
+```sh
+./setup-git.sh
+```
+
 ## zsh
 
 ```sh
