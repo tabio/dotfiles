@@ -1,5 +1,9 @@
 {
   "suggest.enablePreselect": true,
   "solargraph.commandPath": "/Users/hoge/.rbenv/shims/solargraph",
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": false,
+  "python.linting.enabled": false,
+  "python.jediEnabled": false,
   "tsserver.npm": "/Users/hoge/.anyenv/envs/nodenv/shims/npm"
 }

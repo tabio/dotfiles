@@ -5,7 +5,10 @@ on_i = 1
 [[plugins]] # :echo has('python3')が1でないと使えない
 repo = 'Shougo/deoplete.nvim'
 on_i = 1
-hook_add = 'let g:deoplete#enable_at_startup = 1'
+hook_add = '''
+let g:python3_host_prog = $PYENV_ROOT . "/shims/python3"
+let g:deoplete#enable_at_startup = 1
+'''
 
 # ruby {{{
 [[plugins]]
