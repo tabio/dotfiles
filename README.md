@@ -64,6 +64,9 @@ brew bundle
 # cocの再インストールが必要な場合は ~/.cache/dein/repos/github.com/neoclide/ を削除
 ./setup-neovim.sh
 
+# iterm2
+./setup-iterm2.sh
+
 # starship
 # ref. https://github.com/starship/starship/blob/master/docs/ja-JP/guide/README.md
 # setup後にはiterm2のtextフォントをFiraCode Nerd Fontに変更(絵文字反映のため)
@@ -82,7 +85,9 @@ cp hammerspoon-init.lua ~/.hammerspoon/init.lua
 
 ## システム環境設定
 
-- キーボード > キーボードで修飾キーの変更
+- キーボード
+  - キーボード > 修飾キーの変更
+  - ショートカット > デスクトップ1~4への切り替えを有効化
 - Mision Control > ホットコーナーでディスプレイのスリープ設定を追加
 - Dockとメニューバー
   - Dockの最近使ったアプリケーションをDocに表示のチェックボックスを外す
