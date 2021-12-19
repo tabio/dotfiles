@@ -1,0 +1,87 @@
+add_newline = false
+scan_timeout = 10
+
+[battery]
+full_symbol = "🔋"
+charging_symbol = "🔌"
+discharging_symbol = "⚡"
+
+[[battery.display]]
+threshold = 30
+style = "bold red"
+
+[character]
+error_symbol = "✗"
+
+[directory]
+truncation_length = 3
+truncate_to_repo = false
+
+[time]
+format = "🕙 %T"
+style = "bright-white"
+disabled = false
+
+[hostname]
+ssh_only = false
+format = "<[$hostname]($style)>"
+trim_at = "-"
+style = "bold dimmed white"
+disabled = true
+
+[username]
+style_user = "bold dimmed blue"
+show_always = false
+
+[aws.region_aliases]
+ap-northeast-1 = "tokyo"
+us-east-1 = "va"
+
+[docker_context]
+disabled = false
+symbol = "🐋 "
+
+[git_branch]
+format = " [$symbol$branch]($style) "
+symbol = "🍣 "
+style = "bold yellow"
+
+[git_state]
+format = '[\($state( $progress_current of $progress_total)\)]($style) '
+cherry_pick = "🍒 PICKING"
+
+[git_status]
+conflicted = "⚔️ "
+ahead = "🏎️ 💨 ×${count}"
+behind = "🐢 ×${count}"
+diverged = "🔱 🏎️ 💨 ×${ahead_count} 🐢 ×${behind_count}"
+untracked = "🛤️  ×${count}"
+stashed = "📦 "
+modified = "📝 ×${count}"
+staged = "🗃️  ×${count}"
+renamed = "📛 ×${count}"
+deleted = "🗑️  ×${count}"
+style = "bright-white"
+format = "$all_status$ahead_behind"
+
+[git_commit]
+commit_hash_length = 8
+style = "bold white"
+
+[jobs]
+symbol = "+ "
+threshold = 4
+
+[python]
+symbol = "🐍"
+format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\))]($style)'
+pyenv_version_name = false
+pyenv_prefix = ""
+style = "bold green"
+
+[nodejs]
+symbol = "🌵"
+format = "[$symbol$version]($style) "
+
+[package]
+disabled = true
