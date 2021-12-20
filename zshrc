@@ -1,6 +1,6 @@
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
-plugins=(git brew zsh-completions zsh-autosuggestions)
+plugins=(git brew zsh-completions zsh-autosuggestions git-open)
 source $ZSH/oh-my-zsh.sh
 export LANG=ja_JP.UTF-8
 export EDITOR='nvim'
