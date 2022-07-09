@@ -18,7 +18,8 @@ truncation_length = 3
 truncate_to_repo = false
 
 [time]
-format = "🕙 %T"
+format = "🕙 $time"
+time_format = "%H:%M"
 style = "bright-white"
 disabled = false
 
