@@ -86,8 +86,13 @@ cp hammerspoon-init.lua ~/.hammerspoon/init.lua
 ## システム環境設定
 
 - キーボード
-  - キーボード > 修飾キーの変更
+  - キーボード > 修飾キーの変更(日本語切り替えの文脈)
+    - キーボードを変更したためデフォルトの設定に戻した
   - ショートカット > デスクトップ1~4への切り替えを有効化
 - Mision Control > ホットコーナーでディスプレイのスリープ設定を追加
 - Dockとメニューバー
   - Dockの最近使ったアプリケーションをDocに表示のチェックボックスを外す
+
+## Better Touch Tool
+
+Better Touch Toolのプリセットを選択して、better-touch-tool.bttpresetをインポート
