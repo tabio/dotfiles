@@ -37,6 +37,7 @@ cask "visual-studio-code"
 # cask "altair-graphql-client"
 # cask "hammerspoon"
 # cask "mysqlworkbench"
+# cask "flutter"
 
 
 # その他
@@ -45,5 +46,5 @@ cask "font-fira-code-nerd-font"
 
 
 # AppStore
-mas "Slack", id: 803453959
-mas "1Password", id: 443987910
+# mas "Slack", id: 803453959
+# mas "1Password", id: 443987910
