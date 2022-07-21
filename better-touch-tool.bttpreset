@@ -47,7 +47,7 @@
     "BTTTpFourFingerSwipeSensitivity" : 0.40000000000000002,
     "BSTMoveTreshold" : 2,
     "BTTHideFomControlStripWhenOpen" : false,
-    "BTTNumberOfStarts" : 12,
+    "BTTNumberOfStarts" : 215,
     "BTTForceNormalClickPressure3F" : 150,
     "showSiriRemoteTab" : true,
     "SIRIScrollSpeed" : 1,
@@ -148,13 +148,29 @@
     "BTTNotchBarNotchMenubarModeHideRightScrollable" : true,
     "BSTSnapAreaDefaultPictoDistanceFromLeft" : 0.10000000149011612
   },
-  "BTTPresetUUID" : "0249C1B6-2184-4C26-AFE4-7546ECEF5EC2",
+  "BTTPresetUUID" : "67B67A27-26AF-473D-873C-6B7F190A3910",
   "BTTPresetContent" : [
     {
       "BTTAppBundleIdentifier" : "BT.G",
       "BTTAppName" : "Global",
       "BTTAppAutoInvertIcon" : 1,
       "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 9,
+          "BTTTriggerTypeDescription" : "3本指でタップ",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 2,
+          "BTTPredefinedActionName" : "CMD(⌘)+クリック",
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTRepeatDelay" : 0,
+          "BTTUUID" : "41BB8ED6-0E1F-4257-86C4-FB23B1F1FF24",
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTOrder" : 5,
+          "BTTDisplayOrder" : 0
+        },
         {
           "BTTTriggerType" : 44,
           "BTTTriggerTypeDescription" : "2本の指でダブルタップ",
@@ -175,6 +191,25 @@
           "BTTDisplayOrder" : 0
         },
         {
+          "BTTTriggerType" : 30,
+          "BTTTriggerTypeDescription" : "TipTap左（2本指修正）",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "アクションなし",
+          "BTTLayoutIndependentActionChar" : "4",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTShortcutToSend" : "56,55,21",
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTRepeatDelay" : 0,
+          "BTTUUID" : "1F1D1A20-CB67-49A8-9836-69CD011A0EB3",
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTOrder" : 6,
+          "BTTDisplayOrder" : 0
+        },
+        {
           "BTTTriggerType" : 13,
           "BTTTriggerTypeDescription" : "3本指で上にスワイプ",
           "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
@@ -188,6 +223,42 @@
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
           "BTTOrder" : 3,
+          "BTTDisplayOrder" : 0
+        },
+        {
+          "BTTTriggerType" : 12,
+          "BTTTriggerTypeDescription" : "3本指でスワイプダウン",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 45,
+          "BTTPredefinedActionName" : "デスクトップを表示",
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTRepeatDelay" : 0,
+          "BTTUUID" : "36C2B7CB-3135-4D82-9B22-09616DDA8AE0",
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTOrder" : 4,
+          "BTTDisplayOrder" : 0
+        },
+        {
+          "BTTTriggerType" : 19,
+          "BTTTriggerTypeDescription" : "下にスクロール（修飾キーが必要）",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "アクションなし",
+          "BTTLayoutIndependentActionChar" : "=",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTShortcutToSend" : "55,24",
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTRepeatDelay" : 0,
+          "BTTUUID" : "291FC1F4-B244-4AC7-9421-73D2459797DE",
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTRequiredModifierKeys" : 1048576,
+          "BTTOrder" : 9,
           "BTTDisplayOrder" : 0
         },
         {
@@ -210,22 +281,6 @@
           "BTTDisplayOrder" : 0
         },
         {
-          "BTTTriggerType" : 9,
-          "BTTTriggerTypeDescription" : "3本指でタップ",
-          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
-          "BTTPredefinedActionType" : 2,
-          "BTTPredefinedActionName" : "CMD(⌘)+クリック",
-          "BTTEnabled2" : 1,
-          "BTTAlternateModifierKeys" : 0,
-          "BTTRepeatDelay" : 0,
-          "BTTUUID" : "41BB8ED6-0E1F-4257-86C4-FB23B1F1FF24",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTOrder" : 5,
-          "BTTDisplayOrder" : 0
-        },
-        {
           "BTTTriggerType" : 17,
           "BTTTriggerTypeDescription" : "TipTap右（1本指修正）",
           "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
@@ -245,19 +300,23 @@
           "BTTDisplayOrder" : 0
         },
         {
-          "BTTTriggerType" : 12,
-          "BTTTriggerTypeDescription" : "3本指でスワイプダウン",
+          "BTTTriggerType" : 18,
+          "BTTTriggerTypeDescription" : "上にスクロール（修飾キーが必要）",
           "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
-          "BTTPredefinedActionType" : 45,
-          "BTTPredefinedActionName" : "デスクトップを表示",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "アクションなし",
+          "BTTLayoutIndependentActionChar" : "-",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTShortcutToSend" : "55,27",
           "BTTEnabled2" : 1,
           "BTTAlternateModifierKeys" : 0,
           "BTTRepeatDelay" : 0,
-          "BTTUUID" : "36C2B7CB-3135-4D82-9B22-09616DDA8AE0",
+          "BTTUUID" : "503B6E2A-5304-4134-A90C-C92ED33C974C",
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
-          "BTTOrder" : 4,
+          "BTTRequiredModifierKeys" : 1048576,
+          "BTTOrder" : 8,
           "BTTDisplayOrder" : 0
         },
         {
@@ -277,25 +336,6 @@
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
           "BTTOrder" : 0,
-          "BTTDisplayOrder" : 0
-        },
-        {
-          "BTTTriggerType" : 30,
-          "BTTTriggerTypeDescription" : "TipTap左（2本指修正）",
-          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "アクションなし",
-          "BTTLayoutIndependentActionChar" : "4",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTShortcutToSend" : "56,55,21",
-          "BTTEnabled2" : 1,
-          "BTTAlternateModifierKeys" : 0,
-          "BTTRepeatDelay" : 0,
-          "BTTUUID" : "1F1D1A20-CB67-49A8-9836-69CD011A0EB3",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTOrder" : 6,
           "BTTDisplayOrder" : 0
         }
       ]
