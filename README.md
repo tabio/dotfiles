@@ -72,9 +72,9 @@ brew bundle
 # setup後にはiterm2のtextフォントをFiraCode Nerd Fontに変更(絵文字反映のため)
 ./setup-starship.sh
 
-# hammerspoon
-# hammerspoonを使う場合はconfigファイルをコピー
-cp hammerspoon-init.lua ~/.hammerspoon/init.lua
+# karabiner
+# capslock -> control, cmd単体で入力切替のみ
+cp karabiner.json ~/.config/karabiner/karabiner.json
 ```
 
 ## Finder
