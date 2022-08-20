@@ -70,3 +70,6 @@ let g:previm_open_cmd = 'open -a Google\ Chrome'
 
 [[plugins]] # copilot
 repo = 'github/copilot.vim'
+
+[[plugins]] # wakatime
+repo = 'wakatime/vim-wakatime'
