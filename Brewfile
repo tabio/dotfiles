@@ -46,6 +46,7 @@ cask "nosql-workbench"
 # その他
 # cask "amazon-music"
 cask "font-fira-code-nerd-font"
+# cask "kindle"
 
 
 # AppStore
