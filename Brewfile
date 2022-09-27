@@ -29,19 +29,20 @@ cask "google-chrome"
 # cask "firefox"
 
 # 開発系
-cask "clipy"
-cask "docker"
-cask "iterm2"
-cask "visual-studio-code"
-cask "karabiner-elements"
-cask "figma"
+cask "altair-graphql-client"
 # cask "android-studio"
 # cask "aws-vault"
-cask "altair-graphql-client"
+cask "clipy"
+cask "docker"
 # cask "flutter"
+cask "figma"
+cask "iterm2"
+cask "karabiner-elements"
 # cask "mysqlworkbench"
 # cask "notion"
 cask "nosql-workbench"
+cask "skitch"
+cask "visual-studio-code"
 
 
 # その他
