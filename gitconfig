@@ -5,8 +5,10 @@
 	name = tabio
 [core]
 	editor = nvim
-	excludesfile = /Users/tabio/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [commit]
-	template = /Users/tabio/.commit_template
+	template = ~/.commit_template
 [init]
 	defaultBranch = main
+[include]
+	path = ~/.gitconfig-company
