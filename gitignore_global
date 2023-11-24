@@ -25,5 +25,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# add
+# vscode
 .vscode
+*.code-workspace
