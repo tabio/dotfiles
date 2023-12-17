@@ -1,3 +1,5 @@
 Brewfile.lock.json
 dein-installer.sh
 iterm
+
+nvim/lazy-lock.json

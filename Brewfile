@@ -25,6 +25,10 @@ brew "gh"
 # brew "flutter"
 # brew "tfenv"
 
+# neovimのプラグインで利用
+brew "ripgrep"
+brew "fd"
+
 # ブラウザ
 cask "google-chrome"
 # cask "firefox"
