@@ -1,5 +1,11 @@
 return {
   {
+    "EdenEast/nightfox.nvim",
+    config = function()
+      vim.cmd([[colorscheme nightfox]])
+    end
+  },
+  {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },
     config = function()
