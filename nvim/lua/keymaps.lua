@@ -85,3 +85,13 @@ keymap("n", "<Leader>w", ':w<Return>', opts)
 
 -- <Space>q で強制終了
 keymap("n", "<Leader>q", ':q<Return>', opts)
+
+-- キー割り当て: buffer間移動
+keymap("n", "<C-n>", ":update<CR>:bn<CR>", { silent = true })
+keymap("i", "<C-n>", "<ESC>:update<CR>:bn<CR>", { silent = true })
+keymap("v", "<C-n>", "<ESC>:update<CR>:bn<CR>", { silent = true })
+keymap("c", "<C-n>", "<ESC>:update<CR>:bn<CR>", { silent = true })
+keymap("n", "<C-p>", ":update<CR>:bp<CR>", { silent = true })
+keymap("i", "<C-p>", "<ESC>:update<CR>:bp<CR>", { silent = true })
+keymap("v", "<C-p>", "<ESC>:update<CR>:bp<CR>", { silent = true })
+keymap("c", "<C-p>", "<ESC>:update<CR>:bp<CR>", { silent = true })

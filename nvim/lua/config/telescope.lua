@@ -1,5 +1,11 @@
+local actions = require('telescope.actions')
 require("telescope").setup({
   defaults = {
+    mappings = {
+      i = {
+        ["<CR>"] = actions.select_default,
+      },
+    },
     file_ignore_patterns = {
       -- 検索から除外するものを指定
       "^.git/",
