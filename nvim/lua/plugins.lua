@@ -42,5 +42,24 @@ return {
     config = function()
       vim.api.nvim_set_keymap('n', '<Leader>fb', ":Telescope file_browser <CR>", {noremap = true})
     end
+  },
+  {
+    'windwp/nvim-autopairs',
+    event = "InsertEnter",
+    opts = {}
+  },
+  {
+    "nvim-treesitter/nvim-treesitter", -- syntax highlight
+    build = ":TSUpdate",
+    config = function ()
+      local configs = require("nvim-treesitter.configs")
+
+      configs.setup({
+          ensure_installed = { "typescript", "javascript", "html", "tsx", "lua", "python", "json", "jsonnet", "yaml", "ssh_config", "sql" },
+          sync_install = false,
+          highlight = { enable = true },
+          indent = { enable = true },
+        })
+    end
   }
 }
