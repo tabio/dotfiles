@@ -52,14 +52,51 @@ return {
     "nvim-treesitter/nvim-treesitter", -- syntax highlight
     build = ":TSUpdate",
     config = function ()
-      local configs = require("nvim-treesitter.configs")
-
-      configs.setup({
-          ensure_installed = { "typescript", "javascript", "html", "tsx", "lua", "python", "json", "jsonnet", "yaml", "ssh_config", "sql" },
-          sync_install = false,
-          highlight = { enable = true },
-          indent = { enable = true },
-        })
+      require("config/nvim-treesitter")
+    end
+  },
+  {
+    'rcarriga/nvim-notify',
+    config = function()
+      require("config/nvim-notify")
+    end
+  },
+  {
+    "folke/noice.nvim",
+    event = "VeryLazy",
+    opts = {},
+    dependencies = {
+      "MunifTanjim/nui.nvim",
+      "rcarriga/nvim-notify",
+    }
+  },
+  {
+    "hrsh7th/nvim-cmp",
+    dependencies = {
+      "hrsh7th/cmp-nvim-lsp",
+      "hrsh7th/cmp-nvim-lua",
+      "hrsh7th/cmp-buffer",
+      "hrsh7th/cmp-path",
+      "hrsh7th/cmp-cmdline",
+      "saadparwaiz1/cmp_luasnip",
+      "L3MON4D3/LuaSnip",
+    },
+    config = function()
+      require("config/nvim-cmp")
+    end
+  },
+  {
+    "williamboman/mason.nvim",
+    build = ":MasonUpdate",
+    opts = {},
+  },
+  {
+    "williamboman/mason-lspconfig.nvim",
+    dependencies = {
+      { "williamboman/mason.nvim" , "neovim/nvim-lspconfig" },
+    },
+    config = function()
+      require("config/mason-lspconfig")
     end
   }
 }
