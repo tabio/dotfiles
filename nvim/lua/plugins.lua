@@ -98,5 +98,15 @@ return {
     config = function()
       require("config/mason-lspconfig")
     end
+  },
+  {
+    "epwalsh/obsidian.nvim",
+    version = "*",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
+    config = function()
+      require("config/obsidian")
+    end
   }
 }

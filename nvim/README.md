@@ -5,3 +5,9 @@
 - iTerm2の再起動
 
 ![](./images/Telescope-icon.png)
+
+## Obsidian.nvimを利用するために
+
+```
+brew install pngpaste
+```
