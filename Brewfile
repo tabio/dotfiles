@@ -1,4 +1,3 @@
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 cask_args appdir: "~/Applications"
 

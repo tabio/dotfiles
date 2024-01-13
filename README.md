@@ -1,17 +1,24 @@
 # dotfiles
 
-M1 MacBook購入後の初期セットアップ
-OS: Monterey 12.0.1
+M2 MacBook購入後の初期セットアップ
+OS: Sonoma 14.2.1
 
 ## 事前準備
 
+- gitコマンドの実行
+  terminalでgitコマンドを打つとXCode利用のためのソフトウェアインストールポップアップが表示されるのでインストールしておく
+- [Homebrew](https://brew.sh/index_ja)のインストール
+  ```sh
+  # install
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+  # pathを通す
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+  ```
 - このリポジトリを$HOME配下にcloneする
   ```sh
   cd ~ && git clone https://github.com/tabio/dotfiles
-  ```
-- [Homebrew](https://brew.sh/index_ja)のインストール
-  ```sh
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
 - AppStoreにログイン
   - BrewfileのmasはAppStoreからのインストールのため
