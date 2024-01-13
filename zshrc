@@ -9,6 +9,7 @@ export EDITOR='nvim'
 alias gg="git grep -n"
 alias ll="ls -lha"
 alias vi="nvim"
+alias cdo="cd ~/Work/obsidian"
 
 # 色を使用
 autoload -Uz colors
