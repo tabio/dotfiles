@@ -92,6 +92,8 @@ cp karabiner.json ~/.config/karabiner/karabiner.json
 - デスクトップとDock > Mision Control > ホットコーナーで左下でロック画面表示
 - Dockとメニューバー
   - Dockの最近使ったアプリケーションをDocに表示のチェックボックスを外す
+- トラックパッド
+    - タップでクリックをON
 
 ## Better Touch Tool
 
