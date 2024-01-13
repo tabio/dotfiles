@@ -93,7 +93,7 @@ cp karabiner.json ~/.config/karabiner/karabiner.json
   - キーボード > 修飾キーの変更(日本語切り替えの文脈)
     - キーボードを変更したためデフォルトの設定に戻した
   - ショートカット > デスクトップ1~4への切り替えを有効化
-- Mision Control > ホットコーナーでディスプレイのスリープ設定を追加
+- デスクトップとDock > Mision Control > ホットコーナーで左下でロック画面表示
 - Dockとメニューバー
   - Dockの最近使ったアプリケーションをDocに表示のチェックボックスを外す
 
@@ -106,3 +106,11 @@ Better Touch Toolのプリセットを選択して、better-touch-tool.bttpreset
 cmd + spaceはspotlightのショートカットが割り当てられているのでOFFにする
 
 システム > キーボード > キーボードショートカット > Spotlight にてSpotlight検索を表示をOFF
+
+raycastを起動させてraycastのconfigファイルをimportする
+
+## 1password
+
+1password8のMac版を[HPからDL](https://1password.com/jp/product/mac/)する
+brew経由ではインストールしない
+AppStoreにあるのはver.7なので注意

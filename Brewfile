@@ -45,7 +45,6 @@ cask "obsidian"
 cask "raycast"
 cask "skitch"
 cask "visual-studio-code"
-cask "1password"
 
 # その他
 cask "font-fira-code-nerd-font"
