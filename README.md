@@ -29,11 +29,9 @@ OS: Sonoma 14.2.1
 brew bundle
 ```
 
-## [Google IME](https://www.google.co.jp/ime/)はRosettaがないとインストールできないので手動でインストールする
+## [Google IME](https://www.google.co.jp/ime/)は手動インストール
 
-- Rosettaをインストールするか聞かれるので「Yes」
 - Google IMEをインストールしたら「ひらがな (Google)」と「ABC」を残して全て削除
-- システム環境設定 > ショートカット > 入力ソースで「前の入力ソース」を「cmd＋スペース」へ変更
 
 ## anyenvの設定
 
@@ -68,7 +66,6 @@ brew bundle
 ./setup-zsh.sh
 
 # neovim
-# cocの再インストールが必要な場合は ~/.cache/dein/repos/github.com/neoclide/ を削除
 ./setup-neovim.sh
 
 # iterm2
@@ -103,3 +100,9 @@ cp karabiner.json ~/.config/karabiner/karabiner.json
 ## Better Touch Tool
 
 Better Touch Toolのプリセットを選択して、better-touch-tool.bttpresetをインポート
+
+## raycast
+
+cmd + spaceはspotlightのショートカットが割り当てられているのでOFFにする
+
+システム > キーボード > キーボードショートカット > Spotlight にてSpotlight検索を表示をOFF
