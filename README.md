@@ -114,3 +114,7 @@ raycastを起動させてraycastのconfigファイルをimportする
 1password8のMac版を[HPからDL](https://1password.com/jp/product/mac/)する
 brew経由ではインストールしない
 AppStoreにあるのはver.7なので注意
+
+## aws / github
+
+awsやgithubの鍵はiCloudの共有を利用するなどする

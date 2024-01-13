@@ -25,6 +25,7 @@ brew "zsh-completions"
 # neovimのプラグインで利用
 brew "ripgrep"
 brew "fd"
+brew "pngpaste"
 
 # ブラウザ
 cask "google-chrome"
