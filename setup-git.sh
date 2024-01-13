@@ -8,4 +8,5 @@ cp ./gitignore_global ~/.gitignore_global
 cp ./commit_template ~/.commit_template
 
 # output message
+echo '~/.ssh/configにてgitを利用するsshキーを確認してください'
 echo 'gitconfigのpathの設定を変更してください'

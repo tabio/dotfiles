@@ -68,5 +68,8 @@ fi
 # starship
 eval "$(starship init zsh)"
 
+# asdf
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+
 ###### キーバーインド変更
 bindkey '^j' vi-cmd-mode

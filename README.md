@@ -33,28 +33,24 @@ brew bundle
 
 - Google IMEをインストールしたら「ひらがな (Google)」と「ABC」を残して全て削除
 
-## anyenvの設定
+## パッケージ管理ツール asdfの設定
 
-- xxenvをインストールできるようにプラグインを追加
-  ```sh
-  anyenv install --init
-  ```
-- ○○envをインストール
-  ```
-  anyenv install rbenv
-  anyenv install pyenv
-  anyenv install nodenv
-  ```
-- shellの再起動
-  ```
-  echo 'eval "$(anyenv init -)"' >> ~/.zshrc
-  exec $SHELL -l
-  ```
-- nodeをインストールしておく(neovimのcoc pluginで利用するため)
-  ```sh
-   nodenv install xx.xx.xx
-   nodenv global xx.xx.xx
-  ```
+- Brewfileに入っているのでインストールされていることが前提
+    - zshrcでasdfへ記述があることを確認
+- nodejs
+    - nodejsのプラグインの追加
+        ```shell
+        asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+        ```
+    - コマンドメモ
+        ```sh
+        # バージョンリスト一覧
+        asdf list all nodejs
+        # 特定のバージョンのリスト一覧
+        asdf list all nodejs 18
+        # 最新バージョンのインストール
+        asdf install nodejs latest
+        ```
 
 ## setup系
 
@@ -117,4 +113,5 @@ AppStoreにあるのはver.7なので注意
 
 ## aws / github
 
+sshを利用してgithubにアクセスするため、旧PCの.ssh/configを確認して必要に応じて秘密鍵・公開鍵を持ってくる
 awsやgithubの鍵はiCloudの共有を利用するなどする

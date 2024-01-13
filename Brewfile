@@ -2,6 +2,7 @@ tap "homebrew/cask-fonts"
 cask_args appdir: "~/Applications"
 
 brew "awscli"
+brew "asdf"
 # brew "aws-sam-cli"
 brew "brew-cask-completion"
 brew "ctags"
