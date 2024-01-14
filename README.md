@@ -117,3 +117,12 @@ AppStoreにあるのはver.7なので注意
 
 sshを利用してgithubにアクセスするため、旧PCの.ssh/configを確認して必要に応じて秘密鍵・公開鍵を持ってくる
 awsやgithubの鍵はiCloudの共有を利用するなどする
+
+## VSCode
+
+基本的には設定はgithubアカウントで同期させている
+vscodevimプラグインを入れているが、初期状態だとjhklによる長押しでの移動が動かないのでVSCodeのターミナルに以下コマンドを入力し再起動する
+```
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
+```
