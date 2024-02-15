@@ -6,6 +6,7 @@
 [core]
 	editor = nvim
 	excludesfile = ~/.gitignore_global
+  quotepath = false
 [commit]
 	template = ~/.commit_template
 [init]
