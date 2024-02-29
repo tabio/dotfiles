@@ -31,7 +31,7 @@ return {
     dependencies = { 'nvim-lua/plenary.nvim', 'nvim-telescope/telescope-fzf-native.nvim' },
     config = function()
       require('config/telescope')
-      vim.api.nvim_set_keymap('n', '<Leader>ff', ":Telescope find_files <CR>", {})
+      vim.api.nvim_set_keymap('n', '<Leader>ff', ":Telescope git_files <CR>", {})
       vim.api.nvim_set_keymap('n', '<Leader>fg', ":Telescope live_grep <CR>", {})
       vim.api.nvim_set_keymap('n', '<Leader>fk', ":Telescope keymaps <CR>", {})
     end
