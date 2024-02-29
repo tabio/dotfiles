@@ -106,7 +106,6 @@ return {
       "nvim-lua/plenary.nvim",
     },
     config = function()
-      vim.cmd([[set conceallevel=2]])
       require("config/obsidian")
     end
   },
