@@ -130,3 +130,9 @@ vscodevimプラグインを入れているが、初期状態だとjhklによる�
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
 ```
+
+## キーボード
+
+keychron q11を使っている
+キーマップのベースはkeychron自体に変更を加えている
+変更は[公式HP](https://www.keychron.com/blogs/archived/how-to-use-via-to-program-your-keyboard)の方法を使い、Chrome上でVIAというソフトウェアを介して操作を行っている
