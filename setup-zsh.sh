@@ -1,15 +1,11 @@
-# install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# install sheldon
+if [ ! -d ~/.config ]
+then
+  mkdir ~/.config
+fi
 
-# plugins
-
-## zsh-completions
-git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
-
-## zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-
-## git open
-git clone https://github.com/paulirish/git-open.git $ZSH_CUSTOM/plugins/git-open
+sheldon init --shell zsh
+cp ./sheldon.toml ~/.config/sheldon/plugins.toml
+sheldon lock --reinstall
 
 cp ./zshrc ~/.zshrc
