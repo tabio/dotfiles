@@ -32,8 +32,9 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
-# 同時に起動したzshの間でヒストリを共有する
+# zshの間でヒストリを共有する
 setopt share_history
+setopt inc_append_history
 
 # 直前と同じコマンドの場合は履歴に追加しない
 setopt hist_ignore_dups
