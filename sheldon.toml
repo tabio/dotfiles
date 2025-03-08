@@ -39,6 +39,7 @@ apply = ["defer"]
 [plugins.ohmyzsh-lib-git]
 github = "ohmyzsh/ohmyzsh"
 dir = "lib"
+use = ['git.zsh']
 apply = ["source", "defer"]
 
 [plugins.ohmyzsh-plugins-git]
