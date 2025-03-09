@@ -1,15 +1,23 @@
-[pager]
-	branch = false
-[user]
-	email = tabio.github@gmail.com
-	name = tabio
 [core]
-	editor = nvim
-	excludesfile = ~/.gitignore_global
+  editor = nvim
+  excludesfile = ~/.gitignore_global
   quotepath = false
+  pager = delta
 [commit]
-	template = ~/.commit_template
+  template = ~/.commit_template
+[delta]
+  navigate = true
+  dark = true
+[merge]
+  conflictstyle = zdiff3
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [include]
-	path = ~/.gitconfig-company
+  path = ~/.gitconfig-company
+[interactive]
+  diffFilter = delta --color-only
+[pager]
+  branch = false
+[user]
+  email = tabio.github@gmail.com
+  name = tabio
