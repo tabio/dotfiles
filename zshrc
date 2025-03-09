@@ -8,7 +8,6 @@ export EDITOR='nvim'
 
 # alias
 alias diff="delta"
-alias gg="git grep -n"
 alias ee="eza -aahl --icons --git"
 alias ei="eza --icons --git"
 alias et="eza -T -L 3 -a -I 'node_modules|.git|.cache' --icons"
