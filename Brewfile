@@ -3,6 +3,7 @@ cask_args appdir: "~/Applications"
 
 brew "awscli"
 # brew "aws-sam-cli"
+brew "bat"
 brew "brew-cask-completion"
 brew "ctags"
 brew "git-delta"

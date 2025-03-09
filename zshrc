@@ -7,6 +7,7 @@ export LANG=ja_JP.UTF-8
 export EDITOR='nvim'
 
 # alias
+alias cat="bat"
 alias diff="delta"
 alias ee="eza -aahl --icons --git"
 alias ei="eza --icons --git"
