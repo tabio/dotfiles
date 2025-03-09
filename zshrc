@@ -8,10 +8,15 @@ export EDITOR='nvim'
 
 # alias
 alias gg="git grep -n"
-alias ll="ls -lha"
+# alias ll="ls -lha"
+alias ee="eza -aahl --icons --git"
+alias ei="eza --icons --git"
+alias et="eza -T -L 3 -a -I 'node_modules|.git|.cache' --icons"
+alias ls=ei
+alias ll=ee
+alias lt=et
 alias vi="nvim"
 
-# 色を使用
 autoload -Uz colors
 colors
 
@@ -56,7 +61,6 @@ function fzf-select-history() {
     zle reset-prompt
 }
 zle -N fzf-select-history
-bindkey '^r' fzf-select-history
 
 # cdr自体の設定
 autoload -Uz cdr
@@ -78,13 +82,15 @@ function fzf-cdr() {
     zle clear-screen
 }
 zle -N fzf-cdr
-bindkey '^e' fzf-cdr
 
 # キーバインディングをemacs風に(-vはvim)
 bindkey -v
 
-###### キーバーインド変更
+# キーバーインド変更
+# bindkey -vの影響を考慮して以下に設定する
 bindkey '^j' vi-cmd-mode
+bindkey '^r' fzf-select-history
+bindkey '^e' fzf-cdr
 
 # starship
 eval "$(starship init zsh)"
