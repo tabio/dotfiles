@@ -92,5 +92,8 @@ bindkey '^j' vi-cmd-mode
 bindkey '^r' fzf-select-history
 bindkey '^e' fzf-cdr
 
+# mise
+eval "$(/opt/homebrew/bin/mise activate zsh)"
+
 # starship
 eval "$(starship init zsh)"
