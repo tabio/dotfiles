@@ -123,3 +123,10 @@ defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
 keychron q11を使っている
 キーマップのベースはkeychron自体に変更を加えている
 変更は[公式HP](https://www.keychron.com/blogs/archived/how-to-use-via-to-program-your-keyboard)の方法を使い、Chrome上でVIAというソフトウェアを介して操作を行っている
+
+## cursor
+
+- vimのjkなどが長押しで動かない。以下のコマンドをitermで打ち込んでcursorを再起動
+    - defaults write $(osascript -e 'id of app "Cursor"') ApplePressAndHoldEnabled -bool false
+- ユーザー設定
+    - Workbench › Activity Bar: Orientation -> horizon
