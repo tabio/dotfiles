@@ -130,3 +130,9 @@ keychron q11を使っている
     - defaults write $(osascript -e 'id of app "Cursor"') ApplePressAndHoldEnabled -bool false
 - ユーザー設定
     - Workbench › Activity Bar: Orientation -> horizon
+- タブの下部をハイライト
+    ```
+    "workbench.colorCustomizations": {
+      "tab.activeBorder": "#0cf388",
+    }
+    ```
