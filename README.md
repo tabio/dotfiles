@@ -33,24 +33,11 @@ brew bundle
 
 - Google IMEをインストールしたら「ひらがな (Google)」と「ABC」を残して全て削除
 
-## パッケージ管理ツール asdfの設定
+## パッケージ管理ツール mise で必要そうなものをインストール
 
 - Brewfileに入っているのでインストールされていることが前提
-    - zshrcでasdfへ記述があることを確認
-- nodejs
-    - nodejsのプラグインの追加
-        ```shell
-        asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
-        ```
-    - コマンドメモ
-        ```sh
-        # バージョンリスト一覧
-        asdf list all nodejs
-        # 特定のバージョンのリスト一覧
-        asdf list all nodejs 18
-        # 最新バージョンのインストール
-        asdf install nodejs latest
-        ```
+- mise use -g node@22
+- mise use -g pnpm@latest
 
 ## setup系
 
