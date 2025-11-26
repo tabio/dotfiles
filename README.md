@@ -38,6 +38,7 @@ brew bundle
 - Brewfileに入っているのでインストールされていることが前提
 - mise use -g node@22
 - mise use -g pnpm@latest
+    - mise use uv@latest (uvも入れておく)
 
 ## setup系
 
