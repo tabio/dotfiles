@@ -158,3 +158,16 @@ keychron q11を使っている
     curl -fsSL https://claude.ai/install.sh | bash
     ```
 - claudeの設定ファイルを必要に応じて追加
+- mcp
+    - mcp確認コマンド
+        ```
+        claude mcp list
+        ```
+    - context7
+        ```
+        npx ctx7@latest setup --claude
+        ```
+    - aws-documentation-mcp-server(事前にuvをインストール済みであること)
+        ```
+        claude mcp add --transport stdio --scope user --env FASTMCP_LOG_LEVEL=ERROR --env AWS_DOCUMENTATION_PARTITION=aws aws-docs -- uvx awslabs.aws-documentation-mcp-server@latest
+        ```
