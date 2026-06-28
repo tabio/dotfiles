@@ -50,10 +50,8 @@ return {
   },
   {
     "nvim-treesitter/nvim-treesitter", -- syntax highlight
+    lazy = false,
     build = ":TSUpdate",
-    config = function ()
-      require("config/nvim-treesitter")
-    end
   },
   {
     'rcarriga/nvim-notify',

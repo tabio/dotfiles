@@ -30,14 +30,18 @@ brew bundle
 
 ## [Google IME](https://www.google.co.jp/ime/)は手動インストール
 
+- 公式HPからDL後以下のスクリプトを実行することでIMEの有効化が可能になる
+    ```sh
+    softwareupdate --install-rosetta --agree-to-license
+    ```
 - Google IMEをインストールしたら「ひらがな (Google)」と「ABC」を残して全て削除
 
 ## パッケージ管理ツール mise で必要そうなものをインストール
 
 - Brewfileに入っているのでインストールされていることが前提
-- mise use -g node@22
+- mise use -g node@26
 - mise use -g pnpm@latest
-    - mise use uv@latest (uvも入れておく)
+- mise use uv@latest (uvも入れておく)
 
 ## setup系
 
@@ -89,7 +93,13 @@ cp karabiner.json ~/.config/karabiner/karabiner.json
 
 ## Better Touch Tool
 
-Better Touch Toolのプリセットを選択して、better-touch-tool.bttpresetをインポート
+- Licenseは1passで管理している
+- Better Touch Toolのプリセットを選択して、better-touch-tool.bttpresetをインポート
+- アプリを起動して設定 > 基本設定 > PCの立ち上げ時にBetterTouchToolを起動するを有効化
+
+## Cleanshot
+
+- ライセンス購入済みなので、既存のPCから削除して移行先PCで利用できるようにする
 
 ## raycast
 
