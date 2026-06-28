@@ -18,7 +18,7 @@ brew "gh"
 brew "grep"
 brew "jq"
 brew "lazygit"
-# brew "neovim"
+brew "neovim"
 brew "nkf"
 brew "mise"
 brew "mas"
@@ -30,9 +30,9 @@ brew "tree"
 brew "wget"
 
 # neovimのプラグインで利用
-# brew "ripgrep"
-# brew "fd"
-# brew "pngpaste"
+brew "ripgrep"
+brew "fd"
+brew "pngpaste"
 
 # ブラウザ
 cask "google-chrome"
