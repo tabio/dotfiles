@@ -153,7 +153,8 @@ keychron q11を使っている
 
 ## claude Code
 
-brew経由だとアップデートが遅いのでnativeをインストールする
-```sh
-curl -fsSL https://claude.ai/install.sh | bash
-```
+- brew経由だとアップデートが遅いのでnativeをインストールする
+    ```sh
+    curl -fsSL https://claude.ai/install.sh | bash
+    ```
+- claudeの設定ファイルを必要に応じて追加
