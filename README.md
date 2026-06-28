@@ -150,3 +150,10 @@ keychron q11を使っている
 - cursorで必要な拡張機能をいれる
     - Claude Code for VS Code
     - ms-pythonを入れてコマンドパレット上で「Python: select interpreter」を入力し、venvのpathを通す（ex. ./venv/bin/pythonなど）
+
+## claude Code
+
+brew経由だとアップデートが遅いのでnativeをインストールする
+```sh
+curl -fsSL https://claude.ai/install.sh | bash
+```
