@@ -15,6 +15,7 @@ alias et="eza -T -L 3 -a -I 'node_modules|.git|.cache' --icons"
 alias ls=ei
 alias ll=ee
 alias lt=et
+alias ggr="git grep"
 alias vi="nvim"
 
 autoload -Uz colors
@@ -91,6 +92,9 @@ bindkey -v
 bindkey '^j' vi-cmd-mode
 bindkey '^r' fzf-select-history
 bindkey '^e' fzf-cdr
+
+# bun
+export PATH="$HOME/.bun/bin:$PATH"
 
 # mise
 eval "$(/opt/homebrew/bin/mise activate zsh)"

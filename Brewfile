@@ -1,6 +1,7 @@
 cask_args appdir: "~/Applications"
 
 brew "awscli"
+brew "aws-vault"
 # brew "aws-sam-cli"
 # brew "bat"
 brew "brew-cask-completion"
