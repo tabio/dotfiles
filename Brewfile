@@ -58,6 +58,7 @@ cask "karabiner-elements"
 cask "nosql-workbench"
 cask "obsidian"
 cask "raycast"
+cask "session-manager-plugin"
 cask "visual-studio-code"
 
 # その他
