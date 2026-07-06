@@ -100,6 +100,12 @@ cp karabiner.json ~/.config/karabiner/karabiner.json
 ## Cleanshot
 
 - ライセンス購入済みなので、既存のPCから削除して移行先PCで利用できるようにする
+- Macのスクリーンショットの設定をOFFにしCleanShotの設定が優先的に利用されるようにする
+    - システム -> キーボード -> キーボードショートカット -> スクリーンショット -> 全部チェック外す
+    - CleanShotの設定でShortcutsタブにて
+        - All-in-One: shift + cmd + 5
+        - Capture Area: shift + cmd + 4
+        - Capture Fullscreen: shift + cmd + 3
 
 ## raycast
 
