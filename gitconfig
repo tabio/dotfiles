@@ -6,6 +6,8 @@
 [commit]
   template = ~/.commit_template
 [delta]
+  syntax-theme = Dracula
+  side-by-side = true
   navigate = true
   dark = true
 [merge]
