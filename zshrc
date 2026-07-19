@@ -101,3 +101,6 @@ eval "$(/opt/homebrew/bin/mise activate zsh)"
 
 # starship
 eval "$(starship init zsh)"
+
+# libpq
+ export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
